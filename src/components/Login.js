@@ -122,7 +122,12 @@ const Login = () => {
           </div>
         )}
         <form onSubmit={handleAuth} noValidate>
+          <div id="emailHelp" className="form-text">
+              usuario: nick@gmail.com
+              contra: nick123
+            </div>
           <div className="mb-3">
+            
             <label htmlFor="email" className="form-label">
               Correo Electrónico
             </label>
